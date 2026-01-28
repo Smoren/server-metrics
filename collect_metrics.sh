@@ -2,7 +2,7 @@
 # Скрипт сбора метрик
 
 LOG_FILE="/var/log/system-metrics.csv"
-METRICS_SCRIPT="/opt/system_monitor/system_monitor.py"
+METRICS_SCRIPT="/opt/system-monitor/system_monitor.py"
 
 # Если файл не существует, создаем заголовок
 if [ ! -f "$LOG_FILE" ] || [ ! -s "$LOG_FILE" ]; then
